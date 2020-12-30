@@ -12,7 +12,7 @@ namespace WishList.Controllers
         // GET: HomeController
         public IActionResult Index()
         {
-            return View();
+            return View("Index");
         }
 
         // GET: HomeController/Details/5
@@ -86,7 +86,7 @@ namespace WishList.Controllers
 
         public IActionResult Error()
         {
-            return Error();
+            return View("Error");
         }
     }
 }
